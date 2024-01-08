@@ -24,6 +24,6 @@ authorName = soup.find('small', class_='author').text
 span_tag = soup.find('span', class_='author')
 a_tag = span_tag.find('a')
 authorInfos = a_tag.get(href)
-print(f'{quote}\nby: {authorName} link {authorInfos}')
+print(f'{quote}\nby: {authorName}')
 
 
